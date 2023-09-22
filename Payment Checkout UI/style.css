@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Styliing for the body of the payment UI */
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	margin-top: 5%;
+	background-color:purple;
+}
+
+.container-box{
+	background-color: greenyellow;
+	padding: 50px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/* Styling for the card images */
+
+.debit-card,
+.visa{
+	width: 80px;
+	height: 80px;
+}
+
+/* Styling for the content of the form */
+
+#card-number{
+	width: 100%;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+#card-cvv,
+#card-exp{
+	padding: 5px;
+}
+
+#card-holder{
+	width: 100%;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+.last-elements{
+	display: flex;
+	flex-direction: row;
+	gap: 2%;
+}
